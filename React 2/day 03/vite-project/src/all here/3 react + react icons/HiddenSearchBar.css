@@ -1,0 +1,23 @@
+body{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+.inptxt{
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+}

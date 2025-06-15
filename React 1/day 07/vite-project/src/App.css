@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    background-color: rgb(40, 40, 40);
+    color: rgb(222, 222, 222);
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.phead{
+    font-weight: 600;
+    justify-self: center;
+}
+
+.gameendsectD{
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.gameendsectW{
+    background-color: rgb(0, 183, 0);
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gameendsectL{
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.languages{
+    width: 425px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    justify-self: center;
+}
+.lang{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px black;
+}
+.lang1{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px black;
+    opacity: 0.2;
+}
+
+.inpW{
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 2px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.inpL{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #6d6d6d;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    width: 50px;
+    height: 46px;
+}
+
+
+.keyboard{
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.keyboardButtons{
+    background-color: orange;
+    border-radius: 10px;
+    width: 9%;
+    text-shadow: 0px 0px 3px black;
+}
+.butgreen{
+    background-color: rgb(0, 179, 0);
+    border-radius: 10px;
+    width: 9%;
+    color: rgb(37, 37, 37);
+    text-shadow: 0px 0px 10px white;
+}
+.butred{
+    background-color: red;
+    border-radius: 10px;
+    width: 9%;
+    color: rgb(37, 37, 37);
+}
+
+
+
+.enterSect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enter{
+    margin: 20px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: rgb(0, 94, 255);
+    text-shadow: 0px 0px 30px rgb(99, 221, 255);
+    box-shadow: 2px 2px 0px white;
+    transition: 0.3s;
+}
+.enter:hover{
+    box-shadow: none;
+}
+
+
+
+
+
+.gameendsectHTML{
+    background-color: rgb(206, 127, 0);
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameendsectCSS{
+    background-color: rgb(168, 0, 168);
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameendsectJavaScript{
+    background-color: rgb(255, 238, 0);
+    color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameendsectReact{
+    background-color: rgb(78, 205, 255);
+    color:  black;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameendsectTypescript{
+    background-color: blue;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameendsectNodejs{
+    background-color: rgb(34, 149, 34);
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameendsectexpressjs{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameendsectRuby{
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameendsectGraphQl{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+@import "tailwindcss"

@@ -1,0 +1,173 @@
+.divpp{
+    background-color: black;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.psect{
+    border: 4px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 5px rgb(0, 255, 0);
+    transition: 0.4s;
+    margin-bottom: 200px;
+}
+.psect:hover{
+    box-shadow: 0px 0px 20px yellow;
+    border: 4px solid yellow;
+}
+.shd{
+    text-shadow: 0px 0px 5px rgb(179, 255, 179);
+}
+.btn{
+    border: 2px solid rgb(255, 255, 0);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px yellow;
+    transition: 0.2s;
+}
+.btn:hover{
+    box-shadow: none;
+}
+
+.sectAnim{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    margin-right: 280px;
+}
+
+.lodAnim{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    border: 2px solid white;
+}
+
+#test{
+    background-color: rgb(128, 0, 128);
+}
+#ball0{
+    background: linear-gradient(to right, rgb(0, 50, 0), rgb(0, 100, 0), rgb(0, 150, 0), rgb(0, 200, 0), rgb(0, 250, 0), rgb(0, 255, 0));
+    box-shadow: 0px 0px 30px rgb(0, 255, 0);
+    animation: circleAnim 10s linear 0s infinite;
+}
+#ball1{
+    background: linear-gradient(to right, rgb(0, 50, 0), rgb(0, 100, 0), rgb(0, 150, 0), rgb(0, 200, 0), rgb(0, 250, 0), rgb(0, 255, 0));
+    box-shadow: 0px 0px 30px rgb(0, 255, 0);
+    animation: circleAnim 10s linear 1s infinite;
+}
+#ball2{
+    background: linear-gradient(to right, rgb(50, 0, 0), rgb(100, 0, 0), rgb(150, 0, 0), rgb(200, 0, 0), rgb(250, 0, 0), rgb(255, 0, 0));
+    box-shadow: 0px 0px 30px red;
+    animation: circleAnim 10s linear 2s infinite;
+}
+#ball3{
+    background: linear-gradient(to right, rgb(50, 0, 0), rgb(100, 0, 0), rgb(150, 0, 0), rgb(200, 0, 0), rgb(250, 0, 0), rgb(255, 0, 0));
+    box-shadow: 0px 0px 30px red;
+    animation: circleAnim 10s linear 3s infinite;
+}
+#ball4{
+    background: linear-gradient(to right, rgb(50, 50, 0), rgb(100, 100, 0), rgb(150, 150, 0), rgb(200, 200, 0), rgb(250, 250, 0), rgb(255, 255, 0));
+    box-shadow: 0px 0px 30px yellow;
+    animation: circleAnim 10s linear 4s infinite;
+}
+#ball5{
+    background: linear-gradient(to right, rgb(50, 50, 0), rgb(100, 100, 0), rgb(150, 150, 0), rgb(200, 200, 0), rgb(250, 250, 0), rgb(255, 255, 0));
+    box-shadow: 0px 0px 30px yellow;
+    animation: circleAnim 10s linear 5s infinite;
+}
+#ball6{
+    background: linear-gradient(to right, rgb(0, 0, 50), rgb(0, 0, 100), rgb(0, 0, 150), rgb(0, 0, 200), rgb(0, 0, 250), rgb(0, 0, 255));
+    box-shadow: 0px 0px 30px blue;
+    animation: circleAnim 10s linear 6s infinite;
+}
+#ball7{
+    background: linear-gradient(to right, rgb(0, 0, 50), rgb(0, 0, 100), rgb(0, 0, 150), rgb(0, 0, 200), rgb(0, 0, 250), rgb(0, 0, 255));
+    box-shadow: 0px 0px 30px blue;
+    animation: circleAnim 10s linear 7s infinite;
+}
+#ball8{
+    background: linear-gradient(to right, rgb(50, 0, 50), rgb(75, 0, 75), rgb(100, 0, 100), rgb(115, 0, 115), rgb(128, 0, 128));
+    box-shadow: 0px 0px 30px purple;
+    animation: circleAnim 10s linear 8s infinite;
+}
+#ball9{
+    background: linear-gradient(to right, rgb(50, 0, 50), rgb(75, 0, 75), rgb(100, 0, 100), rgb(115, 0, 115), rgb(128, 0, 128));
+    box-shadow: 0px 0px 30px purple;
+    animation: circleAnim 10s linear 9s infinite;
+}
+
+
+@keyframes circleAnim{
+    0%{
+        left: 0px;
+        top: 0%;
+        transform: rotate(0deg);
+    }
+    20%{
+        left: 330px;
+        top: 0px;
+    }
+    22%{
+        left: 359px;
+        top: 15px;
+    }
+    24%{
+        left: 377px;
+        top: 30px;
+    }
+    40%{
+        left: 377px;
+        top: 210px;
+        transform: rotate(720deg);
+    }
+    42%{
+        left: 349px;
+        top: 230px;
+    }
+    45%{
+        left: 320px;
+        top: 247px;
+    }
+    73%{
+        left: -40px;
+        top: 247px;
+        transform: rotate(1080deg);
+    }
+    76%{
+        left: -90px;
+        top: 227px;
+    }
+    79%{
+        left: -99px;
+        top: 197px;
+    }
+    93%{
+        left: -99px;
+        top: 40px;
+        transform: rotate(1440deg);
+    }
+    95%{
+        left: -79px;
+        top: 20px;
+    }
+    97%{
+        left: -59px;
+        top: 0px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        transform: rotate(1800deg);
+    }
+}
+
+
+@import "tailwindcss"

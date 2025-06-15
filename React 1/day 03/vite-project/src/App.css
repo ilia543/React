@@ -1,0 +1,49 @@
+#easy{
+    box-shadow: 2px 2px 0px green;
+    transition: 0.5s;
+}
+#easy:hover{
+    box-shadow: none;
+}
+#normal{
+    box-shadow: 2px 2px 0px rgb(192, 124, 0);
+    transition: 0.5s;
+}
+#normal:hover{
+    box-shadow: none;
+}
+#hard{
+    box-shadow: 2px 2px 0px rgb(196, 0, 0);
+    transition: 0.5s;
+}
+#hard:hover{
+    box-shadow: none;
+}
+#generateGameboard{
+    box-shadow: 2px 2px 0px blue;
+    transition: 0.5s;
+}
+#generateGameboard:hover{
+    box-shadow: none;
+}
+#endgame{
+    box-shadow: 2px 2px 0px purple;
+    transition: 0.5s;
+}
+#endgame:hover{
+    box-shadow: none;
+}
+.boxwhite{
+    background-color: white;
+}
+.scaleanim{
+    animation: anim 0.6s normal 0s 1;
+}
+@keyframes anim{
+    0%{
+      transform: scaleX(-1);
+    }
+}
+
+
+@import "tailwindcss"
