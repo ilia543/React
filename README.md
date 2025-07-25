@@ -5,12 +5,9 @@ The second one is what I learned and did from the new video, and there is also a
 
 first video:
 https://www.youtube.com/watch?v=x4rFhThSX04
-I watched this video in its entirety
 
 second video:
-https://www.youtube.com/watch?v=M9O5AjEFzKw&t=1s  15.43.00
-I watched this video in its entirety
-
+https://www.youtube.com/watch?v=M9O5AjEFzKw&t=1s
 
 
 I also learned additional material and languages ​​from this 2 day 2 hour video
